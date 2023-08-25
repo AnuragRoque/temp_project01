@@ -1,0 +1,89 @@
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.navbar-container {
+    background-color: #163939;
+    position: fixed;
+  /* top: 0; */
+  /* left: 0; */
+    width: 70%;
+    z-index: 1;
+    color: white;
+    height: 74px;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    font-family: 'Bebas Neue';
+  }
+  
+  .active-link {
+    font-weight: bold;
+    color: yellow;
+    font-family: 'Bebas Neue';
+  }
+
+  .nav-text {
+    text-decoration: none;
+    text-align: left;
+    color: #339795;
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out, letter-spacing 0.3s ease-in-out;
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  
+  .nav-text:hover {
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0.5px; /* Add letter-spacing only on hover */
+  }
+  
+  .logo{
+    height: 85px;
+    width: 85px;
+    margin-right: 10px;
+    margin-top: 6px;
+  }
+
+  .navbutton{
+    color: #fdfdfd;
+    background-color:#339795;
+    border: 8px solid #339795;
+    border-radius: 18px;
+    /* border-top-left-radius: 10%; */
+   margin-left: 10px;
+
+
+  }
+
+  .navbutton:hover{
+    color: #fdfdfd;
+    background-color:#324158;
+    border: 8px solid #324158;
+    border-radius: 18px;
+    cursor: pointer;
+
+  }
+
+
+  .navbutton-container{
+    color: #339795;
+
+
+  }
+
+  .navbutton-container:hover{
+    color: #324158;
+
+  }

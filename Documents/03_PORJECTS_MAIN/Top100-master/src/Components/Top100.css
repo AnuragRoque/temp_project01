@@ -1,0 +1,21 @@
+.top100{
+    align-items: center;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  padding-top: -20%;
+  
+}
+
+.top100text{
+  color: #fdfdfd;
+  background-color:#339795;
+  border: 10px solid #339795;
+  border-radius: 15px;
+  font-size: 20px;
+  
+  /* position: fixed; */
+    
+}
+h1{
+    margin: 0;
+}

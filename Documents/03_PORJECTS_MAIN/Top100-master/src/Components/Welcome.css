@@ -1,0 +1,53 @@
+.welcomeheading{
+  align-items: center;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  padding-top: 2%;
+}
+.text{
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 22px;
+  
+}
+.t2{
+  background-image: url("../assets/images/aboutus_bar.png ");
+  background-size: 100% 100%;
+  /* width: 100vw; */
+  padding: 17px;
+  position: relative;
+}
+
+.textdesc{
+  text-align: justify;
+  padding-left: 20%;
+  padding-right: 200%;
+}
+
+.marketinghub{
+  font-size: 24px;
+}
+
+.btnjoinwaitlist{
+  color: #fdfdfd;
+  background-color:#339795;
+  border: 22px solid #339795;
+  border-radius: 25px;
+  font-size: 18px;
+  /* position: fixed; */
+
+
+}
+
+.btnjoinwaitlist:hover{
+  color: #fdfdfd;
+  background-color:#324158;
+  border: 22px solid #324158;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  /* position: fixed; */
+
+}
